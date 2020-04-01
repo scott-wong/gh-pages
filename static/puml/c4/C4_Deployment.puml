@@ -1,0 +1,41 @@
+!include C4_Component.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Component.puml
+
+' Scope: A single software system.
+' Primary elements: Deployment nodes and containers within the software system in scope.
+' Intended audience: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff.
+
+' Colors
+' ##################################
+!define NODE_FONT_COLOR    #444444
+!define NODE_BG_COLOR      #FFFFFF
+
+' Styling
+' ##################################
+
+skinparam rectangle<<node>> {
+  Shadowing false
+  StereotypeFontSize 0
+  FontColor NODE_FONT_COLOR
+  BackgroundColor NODE_BG_COLOR
+  BorderColor #444444
+}
+
+' Layout
+' ##################################
+
+!definelong LAYOUT_WITH_LEGEND
+hide stereotype
+legend right
+|=                    |= Type                |
+|<NODE_BG_COLOR>      | deployment node      |
+|<CONTAINER_BG_COLOR> | deployment container |
+endlegend
+!enddefinelong
+
+' Nodes
+' ##################################
+' PlantUML does not support automatic line breaks of container, if e_techn is very long insert line breaks with 
+' "</size>\n<size:TECHN_FONT_SIZE>"
+!define Node(e_alias, e_label, e_techn) rectangle "==e_label\n<size:TECHN_FONT_SIZE>[e_techn]</size>" <<node>> as e_alias
