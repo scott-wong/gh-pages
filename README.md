@@ -1,7 +1,3 @@
-```
-hugo
-cd public
-git add .
-git commit -m "update charts/blogs"
-git push
-```
+[![Build Status](https://travis-ci.org/scott-wong/gh-pages.svg?branch=master)](https://travis-ci.org/scott-wong/gh-pages)
+
+自动发布到https://scott-wong.github.io
