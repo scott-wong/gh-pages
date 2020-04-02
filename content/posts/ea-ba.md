@@ -5,5 +5,5 @@ draft: false
 categories: ["架构"]
 tags: [""]
 ---
-
+CGAF包括业务架构、数据架构、应用架构、技术及基础设施架构、安全架构。
 working...  
