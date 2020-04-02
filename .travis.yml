@@ -5,10 +5,10 @@ branches:
     - master  # 设置自动化部署的源码分支
 
 # cache this directory
-cache:
-  directories:
-    # 主题没有更改时可以缓存
-    - themes
+# cache:
+#   directories:
+#     # 主题没有更改时可以缓存
+#     - themes
 
 before_install:
 - export TZ='Asia/Shanghai'  # 设置时区

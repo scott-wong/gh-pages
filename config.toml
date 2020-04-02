@@ -12,7 +12,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = ""
+newContentEditor = "Code"
 
 # i18n
 defaultContentLanguage = "zh"
@@ -92,11 +92,11 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "scott-wong"
+    name = "scott-wong/岛民宇哥"
     # 邮箱
     email = "wyuleo@gmail.com"
     # 座右铭或简介
-    motto = "岛民宇哥"
+    motto = "十年技术人，具体请点击“关于”页面。"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
@@ -322,12 +322,12 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "scott-wong/岛民宇哥的个人网站，最近专注企业架构和云原生技术体系。"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2020-04-01T20:00:00+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
@@ -467,7 +467,7 @@ uglyURLs = false
     enableDarkMode = true
 
     # 默认模式
-    defaultTheme = "light"
+    defaultTheme = "dark"
     # 说明：light（浅色模式）或 dark（深色模式）
 
     # 是否隐藏模式切换开关
@@ -1190,7 +1190,7 @@ uglyURLs = false
     # 多语言
 
     # 是否开启多语言按钮
-    enableLangToggle = false
+    enableLangToggle = true
 
     # 是否在首页隐藏多语言按钮
     hideLangToggleInHome = false
