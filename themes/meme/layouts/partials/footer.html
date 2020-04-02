@@ -10,7 +10,7 @@
             {{- $siteInfoCopyright := .Scratch.Get "siteInfoCopyright" -}}
 
             {{- if .Site.Params.displaySiteCreatedYear -}}
-                {{- .Scratch.Set "siteInfoCreatedYear" (printf `%s` (now.Format "2006")) -}}
+                {{- .Scratch.Set "siteInfoCreatedYear" (printf `%s–%s` (dateFormat "2006" (time .Site.Params.siteCreatedTime)) (now.Format "2006")) -}}
             {{- else -}}
                 {{- .Scratch.Set "siteInfoCreatedYear" (now.Format "2006") -}}
             {{- end -}}
