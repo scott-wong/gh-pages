@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://scott-wong.github.io/"
+baseURL = "https://scott-wong.ga/"
 title = "scott-wong's blog"
 languageCode = "zh-CN"
 hasCJKLanguage = true
