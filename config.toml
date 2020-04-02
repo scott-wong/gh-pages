@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://scott-wong.ga/"
-title = "scott-wong's blog"
+title = "scott-wong/岛民宇哥"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）创作共用-署名-非商业性-相同方式共享
@@ -96,11 +96,11 @@ uglyURLs = false
     # 邮箱
     email = "wyuleo@gmail.com"
     # 座右铭或简介
-    motto = "岛民"
+    motto = "岛民宇哥"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://scott-wong.github.io/"
+    website = "https://scott-wong.ga"
 
 # 相关文章
 [related]
