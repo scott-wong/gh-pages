@@ -27,6 +27,9 @@ md转word
 - [writage插件](http://www.writage.com)
 
 
+## 架构设计规范
+### TOGAF
+
 ## 后端开发规范
 ### Java
 【强制】[《Java开发手册》](https://developer.aliyun.com/special/tech-java),当前最新版1.5.0  
@@ -35,3 +38,10 @@ md转word
 ## 前端开发规范
 ### Vue
 [Vue前端开发规范](https://www.jianshu.com/p/8b095857f73e)
+
+## 数据传输规范
+### 日期时间字段
+使用ISO 8601-1：2019规范中的扩展格式，如日期时间组合的格式为
+```
+2020-04-01T09:38:36+08:00
+```

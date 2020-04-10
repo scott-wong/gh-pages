@@ -23,7 +23,7 @@ install:
   - hugo version
   - git log -p -2 | cat
   - commit_msg=$(git log -n1 --pretty=format:"%s")
-  - git clone --recursive -b master https://${GH_APIKEY}@github.com/scott-wong/scott-wong.github.io.git public
+  - git clone --recursive -b master https://${GH_APIKEY}@github.com/scott-wong/scott-wong.github.io.git --depth=1 public
   # - rm -rf public/*
 
 script:
