@@ -2,7 +2,7 @@
 title: "企业架构系列：开发规范"
 date: 2020-04-01T09:38:36+08:00
 draft: false
-categories: ["架构"]
+categories: ["架构", "技术架构"]
 tags: ["开发规范"]
 ---
 # 企业架构系列：开发规范
