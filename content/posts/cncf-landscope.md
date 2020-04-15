@@ -77,7 +77,7 @@ Telepresence是比较有用的工具，用于本地开发连接k8s集群。
 ![CNCF全景图-CI/CD](/images/cncf-landscope-cicd.png)  
 
 CI/CD工具图里面常用的Jenkins + Gitlab，开源项目用Travis CI。  
-建议通1.3.
+建议同1.3.
 
 # 2.编排与治理层
 编排与治理层（Orchestration Management）由计划与编排(Scheduling & Orchestration)、协调与服务发现(Coordination & Service Discovery)、远程过程调用(Remote Procedure Call)、服务代理(Service Proxy)、API网关、服务网格(Service Mesh)等六部分组成。
