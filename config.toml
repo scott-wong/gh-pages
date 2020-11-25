@@ -1,8 +1,8 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://scott-wong.ga/"
-title = "scott-wong/岛民宇哥"
+baseURL = "https://wangyu.space/"
+title = "scott-wong/王宇"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）创作共用-署名-非商业性-相同方式共享
@@ -92,9 +92,9 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "scott-wong/岛民宇哥"
+    name = "scott-wong/王宇"
     # 邮箱
-    email = "wyuleo@gmail.com"
+    email = "mm@wangyu.space"
     # 座右铭或简介
     motto = "十年技术人，具体请点击“关于”页面。"
     # 头像

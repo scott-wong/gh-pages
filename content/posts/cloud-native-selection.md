@@ -13,8 +13,14 @@ tags: ["云原生", "TOGAF","C4模型", "敏捷"]
 毕竟每家公司的组织结构和业务技术需求千差万别，文中的选型也没法做到面面俱到，如有疏漏和错误，敬请指正。
 
 ---
+
+## 什么是云原生
+CNCF云原生定义：  
+云原生技术有利于各组织在公有云、私有云和混合云等新型动态环境中，构建和运行可弹性扩展的应用。云原生的代表技术包括容器、服务网格、微服务、不可变基础设施和声明式 API。  
+![云原生定义](/images/cloudnative.png)
+
 ## 云原生生态图
-从全局视角了解云原生生态可以直接看[CNCF全景图](https://landscape.cncf.io/)，截止2020年3月25日已有1,359个图标。包含应用定义与开发层（App Definition and Development）、编排与治理层（Orchestration Management）、运行时层（Runtime）、供应保障层（Provisioning）、云服务商（Special）、平台（Platform）、观察与分析（Observability and Analysis）、无服务（Serverless）和CNCF成员（Members）八个层次。  
+从全局视角了解云原生生态可以直接看[CNCF全景图](https://landscape.cncf.io/)，截止2020年4月27日已有1,382个图标。包含应用定义与开发层（App Definition and Development）、编排与治理层（Orchestration Management）、运行时层（Runtime）、供应保障层（Provisioning）、云服务商（Special）、平台（Platform）、观察与分析（Observability and Analysis）、无服务（Serverless）和CNCF成员（Members）八个层次。  
 ![CNCF全景图](/images/cncf-landscope.png)
 作者并没有全面研究每个层级，下面仅列出日常用到的产品或工具，下篇文章计划按全景图的层级划分重新梳理选型。  
 

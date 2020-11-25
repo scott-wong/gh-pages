@@ -7,7 +7,7 @@ tags: ["云原生", "CNCF"]
 ---
 
 # 概述
-从全局视角了解云原生生态可以直接看[CNCF全景图](https://landscape.cncf.io/)，截止2020年4月14日已有1,373个图标。包含应用定义与开发层（App Definition and Development）、编排与治理层（Orchestration Management）、运行时（Runtime）、供应保障层（Provisioning）、平台（Platform）、观察与分析（Observability and Analysis）、无服务（Serverless）、云服务商（Special）和CNCF成员（Members）八个层次。  
+从全局视角了解云原生生态可以直接看[CNCF全景图](https://landscape.cncf.io/)，截止2020年4月27日已有1,382个图标。包含应用定义与开发层（App Definition and Development）、编排与治理层（Orchestration Management）、运行时（Runtime）、供应保障层（Provisioning）、平台（Platform）、观察与分析（Observability and Analysis）、无服务（Serverless）、云服务商（Special）和CNCF成员（Members）八个层次。  
 ![CNCF全景图](/images/cncf-landscope.png)  
 从CNCF全景图里做技术选型是个比较靠谱的方法，具体还是根据客户需要或行业特点来选。
 本文重点介绍图中涉及的开源项目。
@@ -76,7 +76,10 @@ Telepresence是比较有用的工具，用于本地开发连接k8s集群。
 ## 1.4 持续集成/部署
 ![CNCF全景图-CI/CD](/images/cncf-landscope-cicd.png)  
 
-CI/CD工具图里面常用的Jenkins + Gitlab，开源项目用Travis CI。  
+- Jenkins + Gitlab，CI/CD工具图里面常用的，开源项目用Travis CI。  
+- Spinnaker，国外用的比较多的跨云持续部署工具，参考https://blog.csdn.net/yejingtao703/article/details/102328579。
+- Tekton，knative推荐的k8s原生流水线工具。
+
 建议同1.3.
 
 # 2.编排与治理层
@@ -285,6 +288,7 @@ Beats，Elastic出品的轻量数据采集器在文件日志等场景比较有�
 ## 6.3 追踪（Tracing）
 主流追踪系统有Jaeger,Pinpoint,Zipkin,CAT,Skywalking等，其中Zipkin和CAT对代码有一定的侵入性。
 - Jaeger，CNCF毕业项目，来自Uber。
+- OpenTelemetry, 整合OpenTracing和OpenCensus，终态是实现Metrics、Tracing、Logging的融合，作为CNCF可观察性的终极解决方案。
 - OpenTracing，孵化中项目，追踪标准规范。
 - Pinpoint，依赖HBase。
 - Skywalking，国人开源的应用程序性能监视工具。
@@ -327,7 +331,7 @@ Serverless框架
 ## 7.5 Serverless可安装平台  
 先重点介绍下Knative，基于Kubernetes的Serverless解决方案，旨在标准化Serverless，简化其学习成本。Knative包含三个主要子项目：
 - Serving 提供缩容至零、请求驱动的计算功能。它本质上是无服务器平台的执行和扩展组件。
-- Build 提供显式"运行至完成"功能，这对创建 CI/CD 工作流程很有用。Serving 使用它将源存储库转换为包含应用程序的容器镜像。
+- Build 提供显式"运行至完成"功能，这对创建 CI/CD 工作流程很有用。Serving 使用它将源存储库转换为包含应用程序的容器镜像。（官方已经停止维护，建议切换到Tekton Pipelines）
 - Eventing 提供抽象的交付和订阅机制，允许构建松散耦合和事件驱动的无服务器应用程序。
 
 其他Serverless可安装平台，现在是百花齐放，只介绍几个代表性的平台：
