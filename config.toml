@@ -100,7 +100,7 @@ uglyURLs = false
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://scott-wong.ga"
+    website = "https://wangyu.space"
 
 # 相关文章
 [related]
