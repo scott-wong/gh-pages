@@ -17,7 +17,7 @@ Recently focused on the implementation of EA(enterprise architecture) and cloud-
 
 ---
 ## 我是谁
-### 岛民宇哥 
+### 岛民宇哥
 10年IT互联网工作经验（主要toB），其中7年以上项目管理&研发管理经验，项目涉及大型集团企业信息化、通信BOSS及电渠系统、融合通信、无人零售、航空货运等多领域，对项目管理和企业架构有深入研究和实践经验，作为技术负责人参与过两次内部创业。  
 最近专注企业架构落地和云原生技术体系。   
 
